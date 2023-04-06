@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    padding: 0 150px;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.greeting {
+    display: flex;
+    padding: 0 150px;
+    background-color: rgb(7, 7, 95);
+}
+
+.randominfo {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+.cards {
+    display: flex;
+    padding: 0 150px;
+    justify-content: space-evenly;
+}
+.card, .cards img {
+    width: 100px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+.action {
+    display: flex;
+    align-self: center;
+}
+.footer {
+    display: flex;
+    align-self: center;
+}
